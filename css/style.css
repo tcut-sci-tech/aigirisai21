@@ -75,6 +75,7 @@ html {
 }
 
 a {
+    font-size: 1.5vw;
     color: #2857b1;
     transition: 0.3s all ease;
     -webkit-transition: 0.3s all ease;
@@ -87,6 +88,7 @@ h2 {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: 4.5vw;
+    font-weight: 700;
     color: #2857b1;
     line-height: 1.1em;
     -webkit-font-feature-settings: "palt";
@@ -347,7 +349,7 @@ body#top .side_area nav > ul:hover {
 
 .txt {
     font-size: 1.5vw;
-    line-height: 1.9em;
+    line-height: 2.3em;
     color: #000;
 }
 
@@ -359,24 +361,26 @@ body#top .side_area nav > ul:hover {
 }
 
 .txt2 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     line-height: 1.9em;
     font-weight: 700;
-    color: #006633;
+    color: #00a7eb;
 }
 
 .txt3 {
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     line-height: 1.9em;
-    font-weight: 700;
-    text-align: center;
-    color: #000;
+    font-weight: 600;
+    text-align: left;
+    margin: 0 0 0 1.5vw;
+    color: #dc143c;
 }
 
 .txt4 {
     font-size: 1.5vw;
     line-height: 1.9em;
-    text-align: center;
+    text-align: left;
+    margin: 0 0 0 1.5vw;
     color: #000;
 }
 
@@ -385,7 +389,25 @@ body#top .side_area nav > ul:hover {
     line-height: 1.9em;
     font-weight: 600;
     text-align: left;
-    color: #ff6347;
+    margin: 0 1.5vw 0 0;
+    color: #dc143c;
+}
+
+.txt6 {
+    font-size: 1.5vw;
+    line-height: 1.9em;
+    text-align: left;
+    margin: 0 1.5vw 0 0;
+    color: #000;
+}
+
+.txt7 {
+    font-size: 3vw;
+    line-height: 1.9em;
+    font-weight: 600;
+    text-align: left;
+    margin: 0 0 0 0;
+    color: #ff0000;
 }
 
 #footer{
@@ -406,23 +428,68 @@ body#top .side_area nav > ul:hover {
     .first_div {
     display: inline-block;
     width: 50%;
-    padding:10px;
-    margin: 0 10px 0 0;
+    padding:1.5vw;
+    margin: 0 1.5vw 0 0;
+    }
+
+    .first_div img {
+    display: inline-block;
+	  width: 100%;
+	  height: auto;
     }
 
     .second_div {
     display: inline-block;
     width: 50%;
-    padding:10px;
-    margin: 0 10px 0 0;
+    padding:1.5vw;
+    margin: 0 1.5vw 0 0;
+    }
+
+    .second_div img {
+	  width: 100%;
+	  height: auto;
     }
 
 .mission {
     position: relative;
     display: inline-block;
-    margin: 0vw 0vw 0vw 0vw;
-    padding: 1vw 2vw 1vw 2vw;
+    margin: 2vw 0 2vw 0;
+    padding: 2vw 2vw 2vw 2vw;
     border: dashed 0.4vw #808080;
     border-radius: 0vw;
-    text-align: center;
+    text-align: left;
 }
+
+ .mission1{
+ 	display:flex;
+ 	width:100%;
+ 	height:25vw;
+ 	padding: 5vw 0 1.5vw 0;
+ 	margin: 0 0 4vw 0;
+ 	justify-content: space-between;
+ }
+ 
+.mission1_content h1{
+ 	font-size: 4vw;
+  line-height: 1.2em;
+  font-weight: 700;
+  margin: 0 0 1vw 1.5vw;
+  color: #00a7eb;
+ }
+
+ .mission2{
+ 	display:flex;
+ 	width:100%;
+ 	height:25vw;
+ 	padding: 1.5vw 0 0 0;
+ 	margin: 0 0 4vw 0;
+ 	flex-direction: row-reverse;
+ }
+
+ .mission2_content h1{
+ 	font-size: 4vw;
+  line-height: 1.2em;
+  font-weight: 700;
+  margin: 0 1.5vw 1vw 0;
+  color: #00a7eb;
+ }
