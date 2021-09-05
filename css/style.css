@@ -342,7 +342,7 @@ body#top .side_area nav > ul:hover {
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background: url(新歓博物館.jpg);
+    background: url();
     background-size: cover;
     background-position: center;
 }
