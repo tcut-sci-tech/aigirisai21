@@ -444,7 +444,7 @@ body#top .side_area nav > ul:hover {
 .mission {
     position: relative;
     display: inline-block;
-    margin: 2vw 0 2vw 0;
+    margin: 0vw 0 0vw 0;
     padding: 2vw 2vw 2vw 2vw;
     border: dashed 0.4vw #808080;
     border-radius: 0vw;
