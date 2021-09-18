@@ -82,32 +82,12 @@ a {
     -moz-transition: 0.3s all ease;
 }
 
-h2 {
-    display: inline-block;
-    margin: 0 0 2%;
+h1 {
+    margin: 0 0 1vw;
     position: relative;
-    font-family: 'Montserrat', sans-serif;
     font-size: 4.5vw;
-    font-weight: 700;
+    font-weight: 800;
     color: #2857b1;
-    line-height: 1.1em;
-    -webkit-font-feature-settings: "palt";
-    font-feature-settings: "palt";
-    transition: 0.3s all ease;
-    -webkit-transition: 0.3s all ease;
-    -moz-transition: 0.3s all ease;
-    opacity: 0;
-    font-feature-settings: "palt";
-}
-
-h2.smoth {
-    top: 0;
-    transition: 0.3s all ease;
-    -webkit-transition: 0.3s all ease;
-    -moz-transition: 0.3s all ease;
-    -webkit-font-feature-settings: "palt";
-    font-feature-settings: "palt";
-    opacity: 1;
 }
 
 .sat {
@@ -120,8 +100,16 @@ h2.smoth {
     color: #ff0000;
 }
 
+h2 {
+    margin: 0 0 1vw;
+    position: relative;
+    font-size: 4vw;
+    font-weight: 700;
+    color: #2857b1;
+}
+
 h3 {
-    margin: 0 0 1%;
+    margin: 0 0 1vw;
     position: relative;
     font-size: 3.5vw;
     font-weight: 600;
@@ -346,7 +334,7 @@ body#top .side_area nav > ul:hover {
 
 .txt1 {
     font-size: 1.5vw;
-    line-height: 1.9em;
+    line-height: 2.3em;
     text-align: right;
     color: #000;
 }
@@ -354,7 +342,6 @@ body#top .side_area nav > ul:hover {
 .txt2 {
     font-size: 2.5vw;
     line-height: 1.9em;
-    font-weight: 700;
     color: #00a7eb;
 }
 
