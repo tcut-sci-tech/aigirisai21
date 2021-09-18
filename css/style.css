@@ -328,27 +328,26 @@ body#top .side_area nav > ul:hover {
 
 .txt {
     font-size: 1.5vw;
-    line-height: 2.3em;
+    line-height: 2em;
     color: #000;
 }
 
 .txt1 {
     font-size: 1.5vw;
-    line-height: 2.3em;
+    line-height: 2em;
     text-align: right;
     color: #000;
 }
 
 .txt2 {
     font-size: 2.5vw;
-    line-height: 1.9em;
+    line-height: 2em;
     color: #00a7eb;
 }
 
 .txt3 {
     font-size: 2.5vw;
-    line-height: 1.9em;
-    font-weight: 600;
+    line-height: 2em;
     text-align: left;
     margin: 0 0 0 1.5vw;
     color: #dc143c;
@@ -356,7 +355,7 @@ body#top .side_area nav > ul:hover {
 
 .txt4 {
     font-size: 1.5vw;
-    line-height: 1.9em;
+    line-height: 2em;
     text-align: left;
     margin: 0 0 0 1.5vw;
     color: #000;
@@ -364,8 +363,7 @@ body#top .side_area nav > ul:hover {
 
 .txt5 {
     font-size: 2.5vw;
-    line-height: 1.9em;
-    font-weight: 600;
+    line-height: 2em;
     text-align: left;
     margin: 0 1.5vw 0 0;
     color: #dc143c;
@@ -373,7 +371,7 @@ body#top .side_area nav > ul:hover {
 
 .txt6 {
     font-size: 1.5vw;
-    line-height: 1.9em;
+    line-height: 2em;
     text-align: left;
     margin: 0 1.5vw 0 0;
     color: #000;
@@ -381,10 +379,8 @@ body#top .side_area nav > ul:hover {
 
 .txt7 {
     font-size: 3vw;
-    line-height: 1.9em;
-    font-weight: 600;
+    line-height: 2em;
     text-align: left;
-    margin: 0 0 0 0;
     color: #ff0000;
 }
 
