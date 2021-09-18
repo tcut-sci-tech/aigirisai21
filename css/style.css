@@ -354,30 +354,6 @@ body#top .side_area nav > ul:hover {
 }
 
 .txt4 {
-    font-size: 1.5vw;
-    line-height: 2em;
-    text-align: left;
-    margin: 0 0 0 1.5vw;
-    color: #000;
-}
-
-.txt5 {
-    font-size: 2.5vw;
-    line-height: 2em;
-    text-align: left;
-    margin: 0 1.5vw 0 0;
-    color: #dc143c;
-}
-
-.txt6 {
-    font-size: 1.5vw;
-    line-height: 2em;
-    text-align: left;
-    margin: 0 1.5vw 0 0;
-    color: #000;
-}
-
-.txt7 {
     font-size: 3vw;
     line-height: 2em;
     text-align: left;
@@ -423,3 +399,13 @@ body#top .side_area nav > ul:hover {
 	  width: 100%;
 	  height: auto;
     }
+
+.mission {
+    position: relative;
+    display: inline-block;
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 2vw 3vw 2vw 3vw;
+    border: dashed 0.4vw #808080;
+    border-radius: 0vw;
+    text-align: left;
+}
