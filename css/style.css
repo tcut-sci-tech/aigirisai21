@@ -355,6 +355,6 @@ body#top .side_area nav > ul:hover {
 	clear: both;
 	padding: 0px 0px 10px 0px;
 	text-align: center;
-	font-size: 10px;
+	font-size: 1.5vw;
   color: #000;
 }
