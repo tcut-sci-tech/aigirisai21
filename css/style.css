@@ -351,6 +351,16 @@ body#top .side_area nav > ul:hover {
 	  height: auto;
     }
 
+.mission {
+    position: relative;
+    display: inline-block;
+    margin: 0vw 0vw 0vw 0vw;
+    padding: 2vw 3vw 2vw 3vw;
+    border: dashed 0.4vw #808080;
+    border-radius: 0vw;
+    text-align: left;
+}
+
 #footer{
 	clear: both;
 	padding: 0px 0px 10px 0px;
