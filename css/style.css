@@ -359,6 +359,26 @@ body#top .side_area nav > ul:hover {
 	  height: auto;
     }
 
+　　.c_div {
+    display: inline-block;
+    width: 35%;
+    padding:0vw;
+    margin: 1vw 1vw 0vw 1vw;
+    }
+
+    .c_div img {
+    display: inline-block;
+	  width: 100%;
+	  height: auto;
+    }
+
+　　.d_div {
+    display: inline-block;
+    width: 70%;
+    padding:0vw;
+    margin: 1vw 1vw 0vw 1vw;
+    }
+
 .mission {
     position: relative;
     display: inline-block;
