@@ -24,16 +24,11 @@ html {
 }
 
 h1 {
-    margin: 0 0 1vw;
+    margin: 0 0 0 0;
     position: relative;
     font-size: 5vw;
     font-weight: 800;
     color: #2857b1;
-}
-
-.sat {
-    font-style: normal;
-    color: #0000ff;
 }
 
 .sun {
@@ -42,7 +37,7 @@ h1 {
 }
 
 h2 {
-    margin: 0 0 1vw;
+    margin: 0 0 0 0;
     position: relative;
     font-size: 4.5vw;
     font-weight: 800;
@@ -50,17 +45,17 @@ h2 {
 }
 
 h3 {
-    margin: 0 0 1vw;
+    margin: 0 0 0 0;
     position: relative;
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-weight: 700;
     color: #009fe8;
 }
 
 h4 {
-    margin: 0 0 1vw;
+    margin: 0 0 0 0;
     position: relative;
-    font-size: 3.5vw;
+    font-size: 3vw;
     font-weight: 700;
     color: #009fe8;
 }
@@ -112,6 +107,7 @@ a {
     font-size: 3vw;
     line-height: 2em;
     text-align: left;
+    font-weight: 700;
     color: #ff0000;
 }
 
@@ -337,14 +333,27 @@ body#top .side_area nav > ul:hover {
         justify-content: center;
     }
 
-    .first_div {
+    .a_div {
     display: inline-block;
     width: 100%;
-    padding:0;
-    margin: 0 1.5vw 0 0;
+    padding:0vw;
+    margin: 0vw 1vw 0vw 1vw;
     }
 
-    .first_div img {
+    .a_div img {
+    display: inline-block;
+	  width: 100%;
+	  height: auto;
+    }
+
+    .b_div {
+    display: inline-block;
+    width: 100%;
+    padding:0vw;
+    margin: 1vw 1vw 0vw 1vw;
+    }
+
+    .b_div img {
     display: inline-block;
 	  width: 100%;
 	  height: auto;
@@ -354,7 +363,7 @@ body#top .side_area nav > ul:hover {
     position: relative;
     display: inline-block;
     margin: 0vw 0vw 0vw 0vw;
-    padding: 2vw 3vw 2vw 3vw;
+    padding: 2vw 2vw 0vw 2vw;
     border: dashed 0.4vw #808080;
     border-radius: 0vw;
     text-align: left;
