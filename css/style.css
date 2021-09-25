@@ -139,7 +139,7 @@ a {
 
 .sub_area {
     position: relative;
-    padding: 4% 5%;
+    padding: 2vw 3vw 1vw 3vw;
 }
 
 .btn .main {
@@ -351,6 +351,7 @@ body#top .side_area nav > ul:hover {
     width: 100%;
     padding:0vw;
     margin: 1vw 1vw 0vw 1vw;
+    text-align: left;  
     }
 
     .b_div img {
@@ -389,13 +390,20 @@ body#top .side_area nav > ul:hover {
     text-align: left;
 }
 
+/*---------- フッター ---------- */
+
 footer {
     background: #2857b1;
+    padding: 1vw 0vw 1vw 0vw;
+    text-align: center;
+	  font-size: 2vw;
+    color: #fff;
 }
 
 .footer_logo {
-    width: 200px;
-    margin-bottom: 2%;
+    width: 100%;
+    margin-bottom: 1vw;
+    text-align: left;
 }
 
 footer nav {
@@ -413,4 +421,5 @@ footer nav li a {
     font-size: 1.5vw;
     line-height: 2em;
     color: #fff;
+    text-align: center;
 }
