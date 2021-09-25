@@ -369,8 +369,9 @@ body#top .side_area nav > ul:hover {
 
     .c_div img {
     display: inline-block;
-	  width: 100%;
+	  width: 90%;
 	  height: auto;
+    margin: 1vw 1vw 0vw 1vw;
     }
 
 　　.d_div {
