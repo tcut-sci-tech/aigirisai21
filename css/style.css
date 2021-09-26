@@ -69,6 +69,14 @@ h4:before {
     background: #2857b1;
 }
 
+h5 {
+    margin: 0 0 0 0;
+    position: relative;
+    font-size: 3vw;
+    font-weight: 800;
+    color: #2857b1;
+}
+
 a {
     font-size: 1.5vw;
     color: #2857b1;
