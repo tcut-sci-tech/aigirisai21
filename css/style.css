@@ -26,7 +26,8 @@ html {
 h1 {
     margin: 0 0 0 0;
     position: relative;
-    font-size: 6vw;
+    font-size: 6.5vw;
+    text-align: center;
     font-weight: 800;
     color: #2857b1;
 }
@@ -72,7 +73,8 @@ h4:before {
 h5 {
     margin: 0 0 0 0;
     position: relative;
-    font-size: 4vw;
+    font-size: 4.5vw;
+    text-align: center;
     font-weight: 800;
     color: #2857b1;
 }
