@@ -27,6 +27,7 @@ h1 {
     margin: 0 0 0 0;
     position: relative;
     font-size: 6vw;
+    text-align: center;
     font-weight: 800;
     color: #2857b1;
 }
@@ -73,6 +74,7 @@ h5 {
     margin: 0 0 0 0;
     position: relative;
     font-size: 4vw;
+    text-align: center;
     font-weight: 800;
     color: #2857b1;
 }
