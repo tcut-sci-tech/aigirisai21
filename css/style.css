@@ -391,6 +391,33 @@ body#top .side_area nav > ul:hover {
     margin: 1vw 1vw 0vw 1vw;
     }
 
+    .e_div {
+    display: inline-block;
+    width: 40%;
+    padding:0vw;
+    margin: 0vw 1vw 0vw 1vw;
+    }
+
+　　.e_div img {
+    display: inline-block;
+	  width: 20%;
+	  height: auto;
+    }
+
+    .f_div {
+    display: inline-block;
+    width: 70%;
+    padding:0vw;
+    margin: 0vw 1vw 0vw 1vw;
+    text-align: left;
+    }
+
+    .f_div img {
+    display: inline-block;
+	  width: 100%;
+	  height: auto;
+    }
+
 .mission {
     position: relative;
     display: inline-block;
@@ -409,12 +436,6 @@ footer {
     text-align: center;
 	  font-size: 2vw;
     color: #fff;
-}
-
-.footer_logo {
-    width: 40%;
-    margin-bottom: 0vw;
-    text-align: left;
 }
 
 footer nav {
