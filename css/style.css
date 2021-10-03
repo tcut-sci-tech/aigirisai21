@@ -63,7 +63,7 @@ h4 {
 
 h4:before {
     content: "";
-    width: 30%;
+    width: 17%;
     height: 2px;
     position: absolute;
     bottom: 0;
@@ -370,25 +370,30 @@ body#top .side_area nav > ul:hover {
 	  height: auto;
     }
 
-　　.c_div {
+    .c_div {
     display: inline-block;
-    width: 35%;
+    width: 100%;
     padding:0vw;
-    margin: 1vw 1vw 0vw 1vw;
+    margin: 1vw 1vw 0vw 0vw;
     }
 
     .c_div img {
     display: inline-block;
-	  width: 90%;
+	  width: 100%;
 	  height: auto;
-    margin: 1vw 1vw 0vw 1vw;
     }
 
 　　.d_div {
     display: inline-block;
-    width: 70%;
+    width: 100%;
     padding:0vw;
-    margin: 1vw 1vw 0vw 1vw;
+    margin: 1vw 1vw 0vw 0vw;
+    }
+
+    .d_div img {
+    display: inline-block;
+	  width: 100%;
+	  height: auto;
     }
 
     .e_div {
