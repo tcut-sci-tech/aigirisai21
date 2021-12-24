@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+.sub_area {
+  position: relative;
+  padding: 1.5vw 3vw 1.5vw 3vw;
+}
+
 .flex_div {
   display: flex;
   justify-content: center;
