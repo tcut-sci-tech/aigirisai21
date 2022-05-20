@@ -1,10 +1,31 @@
 @charset "UTF-8";
 
+/*---------- 文字 ---------- */
 body {
   font-family: 'M PLUS 1p', 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 4vw;
+  text-align: center;
+  font-weight: 800;
+  color: #2857b1;
+}
+
+h2 {
+  margin: 0 0 0 0;
+  position: relative;
+  font-size: 3vw;
+  text-align: center;
+  font-weight: 800;
+  color: #ea5550;
+}
+
+h3 {
   margin: 0 0 0 0;
   position: relative;
   font-size: 1.5vw;
@@ -22,57 +43,64 @@ a {
   text-decoration: none;
 }
 
-.btn06{
+txt1 {
+  margin: 0 0 0 0;
   position: relative;
-  text-decoration: none;
-	display: inline-block;
-	background:#009fe8;
-	color:#fff;
-  padding: 10px 40px 10px 30px;
-	border-radius:25px;
-  text-align: center;
-  outline: none;
-  transition: ease .2s;
-  font-size: 1.7vw;
-  font-weight: 600;
-  color: #ffffff;
+  font-size: 2vw;
+  font-weight: 500;
+  color: #000000;
 }
 
-.btn06:hover{
-  background:#4ab8f7;
-}
-
-.btnarrow2::after{
-  content: '';
-  position: absolute;
-  top:42%;
-  right: 13px;
-  width: 5px;
-  height: 5px;
-  border-top: 2px solid #fff;
-  border-right: 2px solid #fff;
-  transform: rotate(45deg);
-}
-
-.btnarrow2:hover::after{
-  animation: arrow .5s;
-}
-
-@keyframes arrow {
-  50% {
-    right: 10px;
-  }
-  100% {
-    right: 13px;
-  }
-}
-
-.sec01 {
+/*---------- セクション ---------- */
+.sec02 {
   margin: 0 0 0 0;
 	height: auto;
 	background-color: #2857b1;
 }
 
+/*---------- フッター リンク ---------- */
+.op a:hover{
+	color: #fff;
+	opacity: 0.5;
+}
+
+.twitter a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(https://tcut-sci-tech.github.io/photo/Logo%20twitter.png);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
+}
+
+.tcu a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(https://tcut-sci-tech.github.io/photo/Logo%20tcu.png);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
+}
+
+.sci a::before{
+  content: '';
+  display: inline-block;
+  width: 2.5vw;
+  height: 2.5vw;
+  background-image: url(https://tcut-sci-tech.github.io/photo/Logo%20sci.png);  
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 1vw;
+}
+
+/*---------- 画面分割 ---------- */
 .flex_div {
   display: flex;
   justify-content: center;
@@ -80,9 +108,9 @@ a {
 
 .a_div {
   display: inline-block;
-  width: 40%;
+  width: 5%;
   padding:0vw;
-  margin: 0vw 1vw 0vw 1vw;
+  margin: 0vw 0vw 0vw 0vw;
 }
 
 .a_div img {
@@ -93,12 +121,38 @@ a {
 
 .b_div {
   display: inline-block;
+  width: 90%;
+  padding:0vw;
+  margin: 0vw 0vw 0vw 0vw;
+}
+
+.b_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.c_div {
+  display: inline-block;
+  width: 40%;
+  padding:0vw;
+  margin: 0vw 1vw 0vw 1vw;
+}
+
+.c_div img {
+  display: inline-block;
+	width: 100%;
+	height: auto;
+}
+
+.d_div {
+  display: inline-block;
   width: 70%;
   padding:0vw;
   margin: 0vw 1vw 0vw 1vw;
 }
 
-.b_div img {
+.d_div img {
   display: inline-block;
 	width: 100%;
 	height: auto;
